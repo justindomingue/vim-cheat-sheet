@@ -31,16 +31,16 @@
             <li><kbd>j</kbd> - move down</li>
             <li><kbd>k</kbd> - move up</li>
             <li><kbd>l</kbd> - move right</li>
-            <li><kbd>w</kbd> - jump by start of words (punctuation considered words)</li>
-            <li><kbd>W</kbd> - jump by words (spaces separate words)</li>
-            <li><kbd>e</kbd> - jump to end of words (punctuation considered words)</li>
-            <li><kbd>E</kbd> - jump to end of words (no punctuation)</li>
-            <li><kbd>b</kbd> - jump backward by words (punctuation considered words)</li>
-            <li><kbd>B</kbd> - jump backward by words (no punctuation)</li>
+            <li><kbd>w</kbd> - jump by start of words</li>
+            <li><kbd>W</kbd> - jump by WORDS</li>
+            <li><kbd>e</kbd> - jump to end of words</li>
+            <li><kbd>E</kbd> - jump to end of WORDS</li>
+            <li><kbd>b</kbd> - jump backward by words</li>
+            <li><kbd>B</kbd> - jump backward by WORDS)</li>
             <li><kbd>0</kbd> - (zero) start of line</li>
             <li><kbd>^</kbd> - first non-blank character of line</li>
             <li><kbd>$</kbd> - end of line</li>
-            <li><kbd>G</kbd> - Go To command (prefix with number - <kbd>5G</kbd> goes to line 5)</li>
+            <li><kbd>G</kbd> - Go To command (prefix with number - to line</li>
           </ul>
           <div class="well">
             <small><strong>Tip</strong> Prefix a cursor movement command with a number to repeat it. For example, <kbd>4j</kbd> moves down 4 lines.</small>
@@ -51,7 +51,7 @@
             <li><kbd>I</kbd> - insert at the beginning of the line</li>
             <li><kbd>a</kbd> - append after the cursor</li>
             <li><kbd>A</kbd> - append at the end of the line</li>
-            <li><kbd>o</kbd> - open (append) blank line below current line (no need to press return)</li>
+            <li><kbd>o</kbd> - open (append) blank line below current line</li>
             <li><kbd>O</kbd> - open blank line above current line</li>
             <li><kbd>ea</kbd> - append at end of word</li>
             <li><kbd>Esc</kbd> - exit insert mode</li>
@@ -60,21 +60,21 @@
         <div class="col-lg-4">
           <h2>Editing</h2>
           <ul>
-            <li><kbd>r</kbd> - replace a single character (does not use insert mode)</li>
+            <li><kbd>r</kbd> - replace a single character</li>
             <li><kbd>J</kbd> - join line below to the current one</li>
             <li><kbd>cc</kbd> - change (replace) an entire line</li>
             <li><kbd>cw</kbd> - change (replace) to the end of word</li>
             <li><kbd>c$</kbd> - change (replace) to the end of line</li>
             <li><kbd>s</kbd> - delete character at cursor and substitute text</li>
             <li><kbd>S</kbd> - delete line at cursor and substitute text (same as cc)</li>
-            <li><kbd>xp</kbd> - transpose two letter (delete and paste, technically)</li>
+            <li><kbd>xp</kbd> - transpose two letter</li>
             <li><kbd>u</kbd> - undo</li>
             <li><kbd>Ctrl</kbd> + <kbd>r</kbd> - redo</li>
             <li><kbd>.</kbd> - repeat last command</li>
           </ul>
           <h2>Marking text (visual mode)</h2>
           <ul>
-            <li><kbd>v</kbd> - start visual mode, mark lines, then do command (such as y-yank)</li>
+            <li><kbd>v</kbd> - start visual mode, mark lines</li>
             <li><kbd>V</kbd> - start Linewise visual mode</li>
             <li><kbd>o</kbd> - move to other end of marked area</li>
             <li><kbd>Ctrl</kbd> + <kbd>v</kbd> - start visual block mode</li>
@@ -126,7 +126,7 @@
             <li><kbd>n</kbd> - repeat search in same direction</li>
             <li><kbd>N</kbd> - repeat search in opposite direction</li>
             <li><kbd>:%s/old/new/g</kbd> - replace all old with new throughout file</li>
-            <li><kbd>:%s/old/new/gc</kbd> - replace all old with new throughout file with confirmations</li>
+            <li><kbd>:%s/old/new/gc</kbd> - ↑ + confirmation</li>
           </ul>
         </div>
       </div> <!-- end row -->
